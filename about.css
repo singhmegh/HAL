@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    color:black;
+    }
+
+h1{
+    font-size: 3rem;
+}
+.para{
+font-style:normal;
+}
+.img{
+    height: 50vh;
+    width: 50vh;
+    bottom: 10vh;
+    display: flex;
+    justify-items:flex-end;
+
+}
+.box{
+    height: 40%;
+    width: 50%;
+    background-color:rgb(225, 126, 159);
+}

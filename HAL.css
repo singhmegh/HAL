@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url(img1.jpeg);
+}
+span{
+    color: #77adff;
+}
+h1{
+    font-size: 3rem;
+    background-color: #0000ff;
+    color:#fff ;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+   font-size: 2rem;
+    background-color:#3385ff;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+.navbar a:hover{
+color: rgb(18, 216, 216);
+}
+.bg{
+    position: absolute;
+    bottom: 5px;
+    right: 80px;
+    width: 450px;
+}
+footer{
+    font-size: 2rem;
+    background-color:#3385ff;
+    color: #fff;
+    display: flex;
+justify-content: flex-end;
+gap:2rem;
+
+}
+.sym{
+    position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  z-index: 2;
+  transition: 0.5s;
+  transform-origin: left;
+}
+.sym li{
+    list-style: none;
+  width: 50px;
+  height: 50px;
+}
+.sym li a {
+display: inline-block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.sym li:hover a {
+    background: #fff;
+  }
+  .sym li a img {
+    filter: invert(1);
+    transform: scale(0.6);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .sym li:hover a img {
+    filter: invert(0);
+  }
