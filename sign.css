@@ -12,6 +12,31 @@ body{
     justify-content: center;
     align-items: center;
 }
+.navbar{
+    font-size: 1rem;
+     background-color:#3385ff;
+     display: flex;
+     justify-content: flex-end;
+     overflow: hidden;
+
+     
+ }
+ .navbar img{
+   height: 4rem;
+   width: 3rem;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+ }
+ .navbar a{
+     color: aliceblue;
+     text-align: center;
+     padding: 20px;
+     float: left;
+ }
+ .navbar a:hover{
+ color: rgb(18, 216, 216);
+ }
 form{
     width: 200px;
     background: linear-gradient(to top, rgba(6, 121, 236, 0.8)50%,rgba(6, 121, 236, 0.8)50%);

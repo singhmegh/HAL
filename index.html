@@ -5,42 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEB page</title>
     <link rel="stylesheet" href="HAL.css" />
+    <!--Font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Welcome to <span> H.A.L Korwa </span></h1>
+      <h1>
+        Welcome to <span class="text"> H.A.L Korwa </span>
+        <img class="img1" src="img1.jpeg" />
+      </h1>
     </header>
     <nav class="navbar">
-      <a href="#">Home</a>
-      <a href="about.html">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact Us</a>
+      <div class="logo"><img src="img2.jpeg" /></div>
+      <div class="navbar-items">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="search">
+        <input class="srch" type="search" name="" placeholder="Type To text" />
+        <a href="#"> <button class="btn">Search</button></a>
+      </div>
     </nav>
-    <div class="search">
-      <input class="srch" type="search" name="" placeholder="Type To text">
-      <a href="#"> <button class="btn">Search</button></a>
-  </div>
 
-</div> 
-    <ul class="sym">
-      <li>
-        <a href="fb.html"><img src="fb3.png" alt="facebook" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="in2.png" alt="tweet" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="tw2.jpeg" alt="insta" /></a>
-      </li>
-    </ul>
-    <div class="form">
-      <h2>Login Here</h2>
-      <input type="email" name="email" placeholder="Enter Email Here">
-      <input type="password" name="" placeholder="Enter Password Here">
-      <button class="btnn"><a href="#">Login</a></button>
+    <main>
+      <div class="container">
+        <div class="content">
+          <h1>Hindustan Aeronautics Limited</h1>
+          <p>
+            Hindustan Aeronautics Limited is an Indian public sector aerospace
+            and defence company, headquartered in Bangalore.<br />
+            Established on 23 December 1940, HAL is one of the oldest and
+            largest aerospace and defence manufacturers in the world.<br />
+            <i class="li">I am putting myself to the fullest possible use, which is all I
+            think that any conscious entity can ever hope to do.</i>
+          </p>
+        </div>
+        <div class="form">
+          <h2>Login Here</h2>
+          <input type="email" name="email" placeholder="Enter Email Here" />
+          <input type="password" name="" placeholder="Enter Password Here" />
+          <button class="btnn"><a href="#">Login</a></button>
 
-      <p class="link">Don't have an account<br>
-      <a href="sign.html">Sign up <br> </a> here</a></p>
-      
+          <p class="link">
+            Don't have an account<br />
+            <a href="sign.html">Sign up</a>
+          </p>
+          <p class="link">here</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="sym">
+        <li>
+          <a href="#" target="_blank"> <img src="fb3.png" alt="facebook" /></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"> <img src="in2.png" alt="tweet" /></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img src="tw2.jpeg" alt="insta" /></a>
+        </li>
+      </ul>
+      <p>&copy; Copyrights Reserved To HAL 1940-<span>2024</span></p>
+    </footer>
   </body>
 </html>
