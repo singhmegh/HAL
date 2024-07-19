@@ -7,13 +7,26 @@
     <link rel="stylesheet" href="sign.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="about.html">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact Us</a>
-        <img  src="img2.jpeg">
+    <header>
+        <h1>
+          Welcome to <span class="text"> H.A.L Korwa </span>
+          <img class="img1" src="img1.jpeg" />
+        </h1>
+      </header>
+      <nav class="navbar">
+        <div class="logo"><img src="img2.jpeg" /></div>
+        <div class="navbar-items">
+          <a href="#">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="search">
+          <input class="srch" type="search" name="" placeholder="Search...." />
+          <a href="#"> <button class="btn">Search</button></a>
+        </div>
       </nav>
+      <div class="form1">
     <form>
         <h1 class="heading">Sign Up</h1>
         <p>required field are followed by *</p>
@@ -22,8 +35,22 @@
         <p>Emails *: <input type="email" name="email" id="email"required></p>
         <p> Enter Password*:</p><input type="password" name="" placeholder="Enter Password Here"></p>
         <p> Confirm Password*:</p><input type="password" name="" placeholder="Enter Password Here"></p>
-        <input type ="submit" value="Sign-in" class="submit">
+        <input type ="submit" value="Sign-in" class="submit"/>
     </form>
-    
+    </div>
+    <footer>
+        <ul class="sym">
+          <li>
+            <a href="#" target="_blank"> <img src="fb3.png" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"> <img src="in2.png" alt="tweet" /></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><img src="tw2.jpeg" alt="insta" /></a>
+          </li>
+        </ul>
+        <p>&copy; Copyrights Reserved To HAL 1940-<span>2024</span></p>
+      </footer>
 </body>
 </html>
