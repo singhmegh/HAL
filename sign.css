@@ -77,7 +77,7 @@ h1 {
   outline: none;
 }
 ::placeholder {
-  color: #fff;
+  color:grey;
   font-family: Arial, Helvetica, sans-serif;
 }
 .btn {
