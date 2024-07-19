@@ -17,6 +17,7 @@ body{
         font-family: sans-serif;
         display: flex;
         justify-content: center;
+        
       }
       .img1 {
         width: 50px;
@@ -37,6 +38,7 @@ body{
         align-items: center;
         justify-content: space-between;
         overflow: hidden;
+        
       }
       .navbar-items {
         display: flex;
