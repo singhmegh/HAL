@@ -150,14 +150,14 @@ border-radius: 5px;
 
   /*form start*/
   .form{
-     height:380px;
-      width: 400px;
+     
+      width: 380px;
       background-color: #F7F9F2;
       transform: translate(0%, -5%);
       border-radius: 10px;
     
       overflow: hidden;
-    
+    padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -166,9 +166,13 @@ border-radius: 5px;
   .heading{
     color:black;
   font-size: 3.0rem;
+  margin: 10px;
+  }
+  p{
+    margin: 20px;
   }
   .submit{
-    background-color: #8D493A;
+    background-color: #0867db;
     color: #fff;
     height: 40%;
     width:50%;
@@ -177,3 +181,11 @@ border-radius: 5px;
     align-items: center;
 border-radius: 8px;
   }
+
+  .wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
