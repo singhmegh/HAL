@@ -135,7 +135,7 @@ footer{
 }
 
 .form h2{
-  width: 180px;
+  width: 170px;
   font-family: sans-serif;
   text-align: center;
   color: #4da6ff;
@@ -313,5 +313,12 @@ footer{
   .search {
     margin-bottom: 10px;
   }
+  .content{
+    font-size: 1.3em;
+  }
+  h2{
+    min-height: 300px;
+    margin: auto;
+    padding: 20px;
+  }
 }
-
