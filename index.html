@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEB page</title>
-    
-    <link rel="stylesheet" href="HAL.css" />
-    
+
+    <link rel="stylesheet" href="css/HAL.css" />
+
     <!--Font family-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,14 +16,14 @@
     />
   </head>
   <body>
-  <header>
+    <header>
       <h1>
-        Welcome to <span class="text"> H.A.L Korwa </span>
-        <img class="img1" src="img1.jpeg" />
+        Welcome to <span class="text1"> H.A.L Korwa </span>
+        <img class="img1" src="Images/img1.jpeg" />
       </h1>
     </header>
     <nav class="navbar">
-      <div class="logo"><img src="img2.jpeg" /></div>
+      <div class="logo"><img src="Images/img2.jpeg" /></div>
       <div class="navbar-items">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -36,17 +36,58 @@
       </div>
     </nav>
     <main>
+      <div class="image-slider">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="Images/tejas.jpg" style="width: 100%; height: 400px" />
+            <div class="text">Tejas</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="Images/mig21.jpg" style="width: 100%; height: 400px" />
+            <div class="text">Mig 21</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="Images/images2.jpg" style="width: 100%; height: 400px" />
+            <div class="text">HAL</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="Images/img8.jpg" style="width: 100%; height: 400px" />
+            <div class="text">75-HAL Day</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
       <div class="container1">
-      
         <div class="content">
-        <h1>Hindustan Aeronautics Limited</h1>
+          <h1>Hindustan Aeronautics Limited</h1>
           <p>
             Hindustan Aeronautics Limited is an Indian public sector aerospace
             and defence company, headquartered in Bangalore.<br />
             Established on 23 December 1940, HAL is one of the oldest and
             largest aerospace and defence manufacturers in the world.<br />
-            <i class="li">I am putting myself to the fullest possible use, which is all I
-            think that any conscious entity can ever hope to do.</i>
+            <i class="li"
+              >I am putting myself to the fullest possible use, which is all I
+              think that any conscious entity can ever hope to do.</i
+            >
           </p>
         </div>
         <div class="form">
@@ -66,17 +107,23 @@
     <footer>
       <ul class="sym">
         <li>
-          <a href="#" target="_blank"> <img src="fb3.png" alt="facebook" /></a>
+          <a href="#" target="_blank">
+            <img src="Images/fb3.png" alt="facebook"
+          /></a>
         </li>
         <li>
-          <a href="#" target="_blank"> <img src="in2.png" alt="tweet" /></a>
+          <a href="#" target="_blank">
+            <img src="Images/in2.png" alt="tweet"
+          /></a>
         </li>
         <li>
-          <a href="#" target="_blank"><img src="tw2.jpeg" alt="insta" /></a>
+          <a href="#" target="_blank"
+            ><img src="Images/tw2.jpeg" alt="insta"
+          /></a>
         </li>
       </ul>
       <p>&copy; Copyrights Reserved To HAL 1940-<span>2024</span></p>
     </footer>
-    
+    <script src="index.js"></script>
   </body>
 </html>
