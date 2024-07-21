@@ -259,7 +259,9 @@ footer{
   color:	 #bf8040
 }
 
-/*media query*/
+/*media query start*/
+/* 768px tablet*/
+/*navbar media query*/
 @media (max-width: 768px) {
   .logo img {
     margin: 5px 10px;
@@ -287,6 +289,8 @@ footer{
     margin-bottom: 10px;
   }
 }
+
+/*phone 425px*/
 @media (max-width: 425px) {
   .logo img {
     margin: 5px 10px;
@@ -313,12 +317,139 @@ footer{
   .search {
     margin-bottom: 10px;
   }
-  .content{
-    font-size: 1.3em;
+
+/*End*/
+  
+  /*media query*/
+  /*content part*/
+  @media (max-width: 768px) {
+    .logo img {
+      margin: 5px 10px;
+      width: 50px;
+      height: 50px;
+    }
+    .navbar {
+      font-size: 1rem;
+    }
+    .navbar-items {
+      margin: 0 10px;
+    }
+    .navbar-items a {
+      margin: 0 20px;
+    }
+    .srch {
+      width: 100px;
+      height: 30px;
+    }
+    .btn {
+      height: 30px;
+      width: 60px;
+    }
+    .search {
+      margin-bottom: 10px;
+    }
+    .container1 {
+      padding: 60px 20px;
+    }
+    .content {
+      width: 400px;
+    }
+    .content h1 {
+      font-size: 1.8rem;
+    }
+    .content p {
+      font-size: 1.4rem;
+    }
+    .form {
+      width: 200px;
+      padding: 10px;
+    }
+    .form input {
+      width: 200px;
+    }
+    .btnn {
+      width: 200px;
+    }
   }
-  h2{
-    min-height: 300px;
-    margin: auto;
-    padding: 20px;
+  /*mobile*/
+  @media (max-width: 425px) {
+    .logo img {
+      margin: 5px 10px;
+      width: 50px;
+      height: 50px;
+    }
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar-items {
+      flex-direction: column;
+    }
+    .navbar-items a {
+      margin: 10px 0;
+    }
+    .srch {
+      width: 100px;
+      height: 30px;
+    }
+    .btn {
+      height: 30px;
+      width: 60px;
+    }
+    .search {
+      margin-bottom: 10px;
+    }
+    .content {
+      font-size: 1.3em;
+      margin: 20px 0;
+      width: 300px;
+    }
+    .content h1 {
+      font-size: 1.5rem;
+      padding-bottom: 10px;
+    }
+    .content p {
+      font-size: 1rem;
+      padding-left: 0;
+    }
+    h1 {
+      font-size: 1.7rem;
+      padding-top: 5px;
+    }
+    .img1 {
+      width: 30px;
+      height: 30px;
+    }
+    h2 {
+      min-height: 300px;
+      margin: auto;
+      padding: 20px;
+    }
+    .container1 {
+      flex-direction: column;
+      padding: 30px 5px;
+    }
+    .form {
+      width: 290px;
+    }
+    .form h2 {
+      min-height: 30px;
+    }
+    .form input {
+      width: 290px;
+    }
+    .btnn {
+      width: 100%;
+    }
+    .sym li a img {
+      width: 20px;
+      height: 20px;
+    }
+    footer p {
+      font-size: 0.8rem;
+    }
+    footer {
+      position: unset;
+      padding: 10px 0;
+    }
   }
 }
