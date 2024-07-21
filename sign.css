@@ -188,7 +188,33 @@ footer p span {
 
 /*media query start*/
 /*navbar start*/
-
+@media (max-width: 768px) {
+  .logo img {
+    margin: 5px 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .navbar {
+    font-size: 1rem;
+  }
+  .navbar-items {
+    margin: 0 10px;
+  }
+  .navbar-items a {
+    margin: 0 20px;
+  }
+  .srch {
+    width: 100px;
+    height: 30px;
+  }
+  .btn {
+    height: 30px;
+    width: 60px;
+  }
+  .search {
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 425px) {
   .logo img {
     margin: 5px 10px;

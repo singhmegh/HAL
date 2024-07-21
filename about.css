@@ -190,6 +190,14 @@ footer{
     .content p {
       font-size: 1.4rem;
     }
+    .para{
+      padding: 3%;
+      font-size:1.2em ;
+    }
+    h1{
+      font-size: 3rem;
+      padding: 4%;
+    }
     
   }
   @media (max-width: 425px) {
@@ -239,5 +247,11 @@ footer{
       width: 30px;
       height: 30px;
     }
-    
+    .para{
+      padding: 5%;
+    }
+    h1{
+      padding: 4%;
+      font-size: 0.7em;
+    }
   }

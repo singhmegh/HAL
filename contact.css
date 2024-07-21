@@ -274,18 +274,7 @@ footer p span {
   .search {
     margin-bottom: 10px;
   }
-  .container1 {
-    padding: 60px 20px;
-  }
-  .content {
-    width: 400px;
-  }
-  .content h1 {
-    font-size: 1.8rem;
-  }
-  .content p {
-    font-size: 1.4rem;
-  }
+
   .form {
     width: 350px;
     padding: 10px;
@@ -296,14 +285,10 @@ footer p span {
   .btnn {
     width: 200px;
   }
-  .container {
-    width: 400px;
-    flex-wrap: nowrap;
-    
-    }
+  
   .box {
     font-size: 0.9em;
-    width: 20px;
+    width:20px;
     
   }
   #box4 {
@@ -313,7 +298,7 @@ footer p span {
     font-size: 12px;
   }
   #box2 {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 @media (max-width: 425px) {
